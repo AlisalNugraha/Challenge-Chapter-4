@@ -34,6 +34,14 @@ html , body , * {
     text-align: center;
 }
 
+.vs {
+    grid-row: 2;
+    color: red;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
 .result {
     grid-row: 2;
     width: 180px;
@@ -52,6 +60,10 @@ html , body , * {
     border-radius: 10px;
     background-color: grey;
     cursor: pointer;
+}
+
+.option:visited {
+    background-color: grey;
 }
 
 .refresh:hover {
