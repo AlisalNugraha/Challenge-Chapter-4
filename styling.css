@@ -7,6 +7,8 @@ html , body , * {
     padding: 0;
 }
 .title {
+    padding-top: 10px;
+    padding-left: 20px;
     color: yellow;
 }
 
@@ -20,10 +22,19 @@ html , body , * {
     justify-content: center;
 }
 .player1 {
-    margin-right: 15%;    
+    margin-right: 15%;   
+    align-items: center; 
     
 }
+.result {
+    width: 180px;
+    height: 100px;
+    rotate: 90deg;
+    transform: rotate(-30deg);
+    background-color: darkgreen;
+}
 .refersh {
+    margin-top:50px;
     
 }
 .com {
