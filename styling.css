@@ -1,0 +1,31 @@
+:root {
+    box-sizing: border-box;
+}
+
+html , body , * {
+    margin: 0;
+    padding: 0;
+}
+.title {
+    color: yellow;
+}
+
+#app {
+    height: 100vh;
+    background-color: burlywood;
+}
+.main {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.player1 {
+    margin-right: 15%;    
+    
+}
+.refersh {
+    
+}
+.com {
+    margin-left: 15%;
+}
