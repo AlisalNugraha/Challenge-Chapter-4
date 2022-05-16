@@ -66,5 +66,14 @@ function pickOption (params) {
     start.wincalculation();
     console.log(`Player 1 : ${start.getPlayerOption} vs Com : ${start.getComOption}`);
     console.log(start.matchResult())
+    const vs = document.getElementById("vs");
+    vs.textContent = start.matchResult();
+    document.getElementById("vs").style.transform = "rotate(-25deg)";
+    document.getElementById("vs").style.color = "white";
+    document.getElementById("vs").style.backgroundColor = "green";
+    document.getElementById("vs").style.fontSize = "large";
+    document.getElementById("vs").style.height = "50px";
+    document.getElementById("vs").style.width = "100px";
+    document.getElementById("vs").style.textAlign = "center"
 
 }
