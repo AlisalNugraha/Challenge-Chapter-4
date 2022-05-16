@@ -71,9 +71,10 @@ function pickOption (params) {
     document.getElementById("vs").style.transform = "rotate(-25deg)";
     document.getElementById("vs").style.color = "white";
     document.getElementById("vs").style.backgroundColor = "green";
-    document.getElementById("vs").style.fontSize = "large";
-    document.getElementById("vs").style.height = "50px";
-    document.getElementById("vs").style.width = "100px";
-    document.getElementById("vs").style.textAlign = "center"
+    document.getElementById("vs").style.fontSize = "xx-large";
+    document.getElementById("vs").style.height = "70px";
+    document.getElementById("vs").style.width = "155px";
+    document.getElementById("vs").style.paddingTop = "20px";
+    document.getElementById("vs").style.paddingBottom = "20px";
 
 }
