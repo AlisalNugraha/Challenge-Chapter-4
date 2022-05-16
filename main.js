@@ -74,7 +74,6 @@ function pickOption (params) {
     document.getElementById("vs").style.fontSize = "xx-large";
     document.getElementById("vs").style.height = "70px";
     document.getElementById("vs").style.width = "155px";
-    document.getElementById("vs").style.paddingTop = "20px";
-    document.getElementById("vs").style.paddingBottom = "20px";
+    document.getElementById("vs").style.padding = "20px";
 
 }
