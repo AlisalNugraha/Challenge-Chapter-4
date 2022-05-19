@@ -13,8 +13,12 @@ html , body , * {
 }
 
 #app {
-    height: 100vh;
-    background-color: burlywood;
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background-color: #9C835F;
 }
 
 .main {
@@ -56,14 +60,10 @@ result {
     margin-left: 15%;
     text-align: center;
 }
-.option:hover {
+.player1 .option:hover {
     border-radius: 10px;
     background-color: grey;
     cursor: pointer;
-}
-
-.option:visited {
-    background-color: grey;
 }
 
 .refresh:hover {
